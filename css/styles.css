@@ -11,7 +11,7 @@ body {
   position: relative;
   width: 100%;
   height: calc(100vh - 90px);
-  background-image: url('../img/banner-dlab.jpg');
+  background-image: url('../assets/img/banner-dlab.jpg');
   background-size: cover;
   background-position: center;
   object-fit: cover;
@@ -181,10 +181,6 @@ body {
   color: #FFF;
 }
 
-.requisitos-text h3 {
-
-}
-
 small {
   color: #212529;
 }
@@ -213,7 +209,7 @@ span {
 }
 
 .financiamiento {
-  background-image: url('../img/fondo-financiamiento2.jpg');
+  background-image: url('../assets/img/fondo-financiamiento2.jpg');
   padding: 100px 30px;
   background-position: center;
   background-repeat: no-repeat;
