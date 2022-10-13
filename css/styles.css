@@ -10,8 +10,8 @@ body {
 .hero-banner-img {
   position: relative;
   width: 100%;
-  height: calc(100vh - 90px);
-  background-image: url('../assets/img/banner-dlab.jpg');
+  height: calc(80vh - 90px);
+  background-image: url('../assets/img/bannerincubadora.png');
   background-size: cover;
   background-position: center;
   object-fit: cover;
@@ -28,6 +28,14 @@ body {
   justify-content: center;
   align-items: center;
   
+}
+
+@media (max-width: 768px) {
+  .hero-banner-img {
+    background-image: url('../assets/img/bannermobile.png');
+    width: 100%;
+   
+  }
 }
 
 @media (max-width: 768px) {
