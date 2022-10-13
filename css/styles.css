@@ -10,7 +10,7 @@ body {
 .hero-banner-img {
   position: relative;
   width: 100%;
-  height: calc(80vh - 90px);
+  height: calc(90vh - 90px);
   background-image: url('../assets/img/bannerincubadora.png');
   background-size: cover;
   background-position: center;
@@ -138,6 +138,12 @@ body {
   background-color: #729e2e;
   color: #FFF;
   font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .info-text-requisitos {
+    height: 100%;
+  }
 }
 
 .info-text-requisitos h3 {
@@ -322,3 +328,13 @@ a {
   border-radius: 30px 0px 0px 30px;
 }
 
+.form {
+  background-color: #f2f2f2;
+}
+
+.form-text h3 {
+  font-size: 46px;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 1px 1px black;
+  color: black;
+}
