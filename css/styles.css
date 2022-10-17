@@ -4,14 +4,15 @@ body {
 }
 
 .navbar {
-  background-color: #f2f2f2;
+  background-color: #fff
 }
+
 
 .hero-banner-img {
   position: relative;
   width: 100%;
-  height: calc(90vh - 90px);
-  background-image: url('../assets/img/bannerincubadora.png');
+  height: 600px;
+  background-image: url('../assets/img/banner-incubadora.png');
   background-size: cover;
   background-position: center;
   object-fit: cover;
@@ -27,14 +28,19 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+}
+
+.banner-text a {
+  margin-top: 350px;
 }
 
 @media (max-width: 768px) {
   .hero-banner-img {
-    background-image: url('../assets/img/bannermobile.png');
+    background-image: url('../assets/img/banner-mobile.png');
     width: 100%;
-   
+  }
+  .banner-text a {
+    margin-top: 350px;
   }
 }
 
@@ -58,13 +64,14 @@ body {
   background: #fff;
   color: #1d1d1b;
   display: inline-block;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   margin-top: 20px;
   padding: 10px 30px;
   text-decoration: none;
   text-align: center;
   text-shadow: none;
+  border-radius: 50px;
 }
 
 .btn-b-ne:hover {
@@ -76,7 +83,7 @@ body {
 .banner-text {
   color: #e2a30b;
   text-shadow: 2px 2px 2px black;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .banner-text h1 {
@@ -97,9 +104,9 @@ body {
 }
 
 .en-que-consiste-text h3 {
-  font-family: 'Roboto', sans-serif;
-  color: #729e2e;
-  text-shadow: 1px 1px 1px black;
+  font-family: 'Poppins', sans-serif;
+  color: #2e58ff;
+ 
   font-size: 36px;
   font-weight: bold;
 }
@@ -107,7 +114,7 @@ body {
 .en-que-consiste-text p {
   color: #212529;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .info-img img {
@@ -121,9 +128,9 @@ body {
   text-align: left;
   flex-wrap: initial;
   flex-direction: column;
-  background-color: #729e2e;
+  background-color: #2e58ff;
   color: #FFF;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .info-text h3 {
@@ -135,9 +142,9 @@ body {
   text-align: left;
   flex-wrap: initial;
   flex-direction: column;
-  background-color: #729e2e;
+  background-color: #2e58ff;
   color: #FFF;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -151,17 +158,22 @@ body {
 }
 
 .beneficios {
-  background-color: #009ee3;
-  font-family: 'Roboto', sans-serif;
+  background-color: #EDF3FF;
+  font-family: 'Poppins', sans-serif;
+}
+
+.beneficios p {
+  color: #000000;
 }
 
 .beneficios h2 {
   font-size: 46px;
-  text-shadow: 1px 1px 1px black;
+  color: #2e58ff;
 }
 
 .beneficios h4 {
   font-size: 24px;
+  color: #2e58ff;
 }
 .puedes-acceder {
   background-color: #ffc107;
@@ -169,22 +181,22 @@ body {
 
 .puedes-acceder h3 {
   font-size: 36px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-shadow: 1px 1px 1px black;
 }
 
 .conoce-programa {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .conoce-programa h3 {
   font-size: 36px;
-  text-shadow: 1px 1px 1px black;
+  color: #2e58ff;
 }
 
 .conoce-programa h4 {
   font-size: 27px;
-  color: #729e2e;
+  color: #2e58ff;
 }
 
 .background-requisitos {
@@ -201,25 +213,27 @@ small {
 
 span {
   font-weight: bold;
+  
 }
 
 .proximas-celulas {
-  background-color: #f2f2f2;
-  /* padding: 50px 0; */
-  font-family: 'Roboto', sans-serif;
+  background-color: #EDF3FF;
+  font-family: 'Poppins', sans-serif;
 }
 
 .celulas-text h3 {
-  font-size: 46px;
-  font-family: 'Roboto', sans-serif;
-  text-shadow: 1px 1px 1px black;
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+  color: #2e58ff;
+  
 }
 
 .fechas-item {
-  background-color: #729e2e;
+  background-color: #2e58ff;
   padding: 30px;
   color: #FFF;
   min-height: 370px;
+  border-radius: 15px;
 }
 
 .financiamiento {
@@ -228,7 +242,7 @@ span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -254,7 +268,7 @@ span {
 
 .formas-pago h4 {
   font-size: 24px;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #FFF;
 }
 
@@ -301,9 +315,13 @@ a {
   color: #729e2e;
 }
 
+.testimonios {
+  font-family: 'Poppins', sans-serif;
+}
+
 .testimonios h1 {
-  color: #e9501d;
-  text-shadow: 1px 1px 1px black;
+  color: #2e58ff;
+  
 }
 
 .testimonios p {
@@ -316,25 +334,25 @@ a {
 
 .testimonios h4 {
   font-size: 27px;
+  color: #f2f2f2 ;
 }
 
 .fondo-azul {
-  background-color: #009ee3;
+  background-color: #2e58ff;
   border-radius: 0px 30px 30px 0px;
 }
 
 .fondo-amarillo {
-  background-color: #e2a30b;
+  background-color: #2e58ff;
   border-radius: 30px 0px 0px 30px;
 }
 
 .form {
-  background-color: #f2f2f2;
+  background-color: #EDF3FF;
 }
 
 .form-text h3 {
-  font-size: 46px;
-  font-family: 'Roboto', sans-serif;
-  text-shadow: 1px 1px 1px black;
-  color: black;
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+  color: #2e58ff;
 }
