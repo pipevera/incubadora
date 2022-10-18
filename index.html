@@ -15,12 +15,26 @@
 </head>
 <body>
 
-  
-   <nav class="navbar">
-    <div class="container d-flex justify-content-center py-3">
-      <a class="navbar-brand " href="#">
-        <img src="/assets/img/logo-reworth.jpg" alt="Reworth">
-      </a>
+  <nav id="navbar-reworth"  class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="/assets/img/logo-reworth.jpg" width="100%" alt="Reworth">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item p-3">
+              <a class="nav-link " href="#informacion">Información</a>
+            </li>
+            <li class="nav-item p-3">
+              <a class="nav-link " href="#beneficios">Beneficios</a>
+            </li>
+            <li class="nav-item p-3">
+              <a class="nav-link" href="#proximas">Próximas Celulas</a>
+            </li>
+        </div>
     </div>
   </nav>
 
@@ -39,18 +53,21 @@
   </section>
 
 
-  <section class="que-es py-5">
+  <section class="que-es py-5" id="informacion" tabindex="0">
     <div class="que-es-text">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6">
-            <h3 class="py-3">¿En qué consiste?</h3>
-            <p>Adquiere experiencia laboral.</p>
-            <p>Participa en proyectos bajo una metodología real de trabajo.</p>
-            <p>Genera confianza trabaja en equipo y <span class="fw-bold">podrás ser contratado por el equipo Reworth.</span> </p>
-            <p>3 meses de trabajo práctico, presentaciones a clientes reales, reuniones de sprint, certificaciones y bonificaciones.</p>
-            <small class="p-small">*La participación del programa no tiene costo</small>
-            
+            <h3 class="py-3 text-center">¿En qué consiste?</h3>
+            <p class="text-center">Adquiere experiencia laboral.</p>
+            <p class="text-center">Participa en proyectos bajo una metodología real de trabajo.</p>
+            <p class="text-center">Genera confianza, trabaja en equipo y <span class="fw-bold">podrás ser contratado por el equipo Reworth.</span> </p>
+            <p class="text-center">3 meses de trabajo práctico, presentaciones a clientes reales, reuniones de sprint, certificaciones y bonificaciones.</p>
+            <ul class="list">
+              <li><small class="p-small">*Bonos certificación</small></li>
+              <li><small class="p-small">*Bonos contratación</small></li>
+              <li><small class="p-small">*La participación del programa no tiene costo</small></li>
+            </ul>
           </div>
           <div class="col-12 col-md-6 align-self-center text-center">
             <img src="assets/img/reworth1.png" alt="Reworth" width="80%">
@@ -60,9 +77,9 @@
     </div>
   </section>
 
-  <section class="en-que-consiste">
+  <section class="en-que-consiste py-5">
     <div class="en-que-consiste-text">
-      <div class="container text-center py-5">
+      <div class="container text-center">
         <div class="row">
           <div class="col-12">
             <h3>¿Qué es REWORTH y cómo funciona?</h3>
@@ -108,41 +125,47 @@
     </div>
   </section>
 
-  <section class="beneficios">
-    <div class="container text-center py-5">
+  <section class="beneficios py-5" id="beneficios">
+    <div class="container text-center ">
       <div class="row">
         <div class="col-12">
-          <h2 class="fw-bold py-5">Beneficios:</h2>
+          <h2 class="fw-bold py-3">Beneficios:</h2>
         </div>
-        <div class="col-12 col-md-3 pb-5">
+        <div class="col-12 col-md-3 ">
           <img src="assets/img/icono-reloj.png" alt="" class="pb-4">
           <h4 class="fw-bold ">Flexibilidad</h4>
           <p>¿Tienes un trabajo actual? Tenemos una modalidad part-time y el avance será en tus tiempos.</p>
         </div>
-        <div class="col-12 col-md-3 pb-5">
+        <div class="col-12 col-md-3">
           <img src="assets/img/icono-handshake.png" alt="" class="pb-4">
           <h4 class="fw-bold ">Networking</h4>
           <p>Trabaja junto a profesionales del mercado que te enseñarán cómo funcionan los equipos de trabajo y sus distintas metodologías.</p>
         </div>
-        <div class="col-12 col-md-3 pb-5">
+        <div class="col-12 col-md-3">
           <img src="assets/img/icono-gears.png" alt="" class="pb-4">
           <h4 class="fw-bold ">Experiencia</h4>
           <p>Refuerza tus habilidades técnicas, trabaja en equipo y presenta tus avances en un entorno real de trabajo.</p>
         </div>
-        <div class="col-12 col-md-3 pb-5">
+        <div class="col-12 col-md-3 ">
           <img src="assets/img/icono-gears.png" alt="" class="pb-4">
           <h4 class="fw-bold ">Bonificación</h4>
           <p>Este programa es gratuito y las personas que finalicen cumpliendo los requerimientos podrán optar por bonos de certificación y/o bonos por contratación.</p>
         </div>
       </div>
+      <div class="row">
+        <div class="col-12">
+          <a class="btn-azul fw-bold mt-5" href="#form"><code>&lt;</code>Postular Aquí<code>&gt;</code></a>
+        </div>
+        
+      </div>
     </div>
   </section>
 
-  <section class="conoce-programa">
+  <section class="conoce-programa py-5">
     <div class="container">
       <div class="row">
-        <div class="col-12 text-center pt-5">
-          <h3 class="fw-bold my-5">Conoce el programa de un Ciclo de Proyecto</h3>
+        <div class="col-12 text-center">
+          <h3 class="fw-bold py-3">Conoce el programa de un Ciclo de Proyecto</h3>
         </div>
       </div>
       <div class="row pb-5">
@@ -209,7 +232,7 @@
     </div>
   </section>
 
-  <section class="proximas-celulas py-5">
+  <section class="proximas-celulas py-5" id="proximas">
     <div class="celulas-text">
       <div class="container">
         <div class="row text-center py-3">
@@ -222,7 +245,7 @@
               <p>4 cupos para Full Stack</p>
               <p>2 cupos para Data Science</p>
               <p>4 cupos para Diseño UX/UI</p>
-              <a class="btn-b-ne fst-italic fw-bold mt-5" href="#form"><code>&lt;</code>Postular Aquí<code>&gt;</code></a>
+              <a class="btn-b-ne fw-bold mt-5" href="#form"><code>&lt;</code>Postular Aquí<code>&gt;</code></a>
             </div>
           </div>
           <!-- <div class="col-12 col-md-4 container">
