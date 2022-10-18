@@ -30,11 +30,11 @@ body {
   align-items: center;
 }
 
-.banner-text a {
+/* .banner-text a {
   margin-top: 350px;
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .hero-banner-img {
     background-image: url('../assets/img/banner-mobile.png');
     width: 100%;
@@ -42,12 +42,9 @@ body {
   .banner-text a {
     margin-top: 350px;
   }
-}
+} */
 
 @media (max-width: 768px) {
-  .banner-text h1 {
-    font-size: 30px!important;
-  } 
   .banner-text h4 {
     font-size: 20px!important;
   }
@@ -55,7 +52,7 @@ body {
     font-size: 20px!important;
   }
   .banner-text p {
-    font-size: 15px!important;
+    font-size: 18px!important;
   }
 }
 
@@ -81,8 +78,7 @@ body {
 
 
 .banner-text {
-  color: #e2a30b;
-  text-shadow: 2px 2px 2px black;
+  color: #fff;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -103,17 +99,51 @@ body {
   font-size: 24px;
 }
 
-.en-que-consiste-text h3 {
+.que-es {
+  background-color: #EDF3FF;
+}
+
+@media (max-width: 768px) {
+  .que-es-text h3 {
+    text-align: center;
+  }
+
+}
+
+.que-es-text h3 {
   font-family: 'Poppins', sans-serif;
   color: #2e58ff;
- 
   font-size: 36px;
   font-weight: bold;
 }
 
+.que-es-text p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #212529;
+  margin: 0;
+}
+
+.que-es-text small {
+  font-size: 18px;
+}
+
+.en-que-consiste-text h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #2e58ff;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
 .en-que-consiste-text p {
   color: #212529;
   font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.en-que-consiste-text small {
+  font-size: 16px;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -164,10 +194,11 @@ body {
 
 .beneficios p {
   color: #000000;
+  font-size: 18px;
 }
 
 .beneficios h2 {
-  font-size: 46px;
+  font-size: 36px;
   color: #2e58ff;
 }
 
@@ -188,6 +219,8 @@ body {
 .conoce-programa {
   font-family: 'Poppins', sans-serif;
 }
+
+
 
 .conoce-programa h3 {
   font-size: 36px;
@@ -319,8 +352,9 @@ a {
   font-family: 'Poppins', sans-serif;
 }
 
-.testimonios h1 {
+.testimonios h3 {
   color: #2e58ff;
+  font-size: 36px;
   
 }
 
