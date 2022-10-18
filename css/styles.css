@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
+ 
 }
 
 .nav-link {
@@ -10,7 +11,10 @@ body {
 }
 
 .navbar {
-  background-color: #fff
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
 }
 
 
