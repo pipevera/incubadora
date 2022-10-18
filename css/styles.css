@@ -104,8 +104,14 @@ body {
 }
 
 @media (max-width: 768px) {
-  .que-es-text h3 {
+  .que-es-text h3, p {
     text-align: center;
+  }
+  .que-es-text img {
+    padding-top: 50px;
+  }
+  .p-small {
+    margin: 0 30px;
   }
 }
 
